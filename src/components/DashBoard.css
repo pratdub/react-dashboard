@@ -1,0 +1,39 @@
+/* Dashboard.css */
+
+/* Carousel wrapper for single chart display */
+.chart-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  /* Carousel buttons */
+  .carousel-btn {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  
+  .carousel-btn.left {
+    left: 10px;
+  }
+  
+  .carousel-btn.right {
+    right: 10px;
+  }
+  
+  .carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
